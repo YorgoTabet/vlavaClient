@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/getServices')
+fetch('https://vlavaserver.herokuapp.com/getServices')
   .then(response => response.json())
   .then(json => {
     console.log(json)
